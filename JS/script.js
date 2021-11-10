@@ -32,15 +32,18 @@ let utente = document.getElementById("utente");
 
 let computer = document.getElementById("computer");
 
+let dadi = document.getElementById("dadi")
 
-utente.addEventListener("click", function(){
+
+dadi.addEventListener("click", function(){
     utente = Math.floor((Math.random() * 6) + 1);
-    console.log(utente);
-})
-
-computer.addEventListener("click", function(){
     computer = Math.floor((Math.random() * 6) + 1);
+    console.log(utente);
     console.log(computer);
+    if (utente > computer){
+        alert("COMPLIMENTI HAI VINTO!!!");
+    } else {
+        alert("NON HAI VINTO");
+    }
 })
-
 
