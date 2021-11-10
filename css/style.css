@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/28798928-tiro-di-dadi-su-un-tavolo-da-gioco-in-un-casinò.jpg);
+    background-size: cover;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#dadi{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: orange;
+    color: red;
+    border: 3px solid tomato;
+}
+
+.container>div{
+    width: 120px;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 1.5rem;
+    display: block;
+    color: red;
+}
